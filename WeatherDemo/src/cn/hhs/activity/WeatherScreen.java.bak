@@ -98,7 +98,7 @@ public class WeatherScreen extends Activity implements OnClickListener {
 	 * 创建时间：2012-7-17
 	 */
 	private void initMyLocation(){
-		progressDialog = ProgressDialog.show(this,null, "正在定位城市...",true, true);
+		progressDialog = ProgressDialog.show(this,null, "城市定位中...",true, true);
 		mLocationListener = new LocationListener(){
 			@Override
 			public void onLocationChanged(Location location) {
